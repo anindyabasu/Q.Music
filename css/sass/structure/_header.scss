@@ -1,0 +1,44 @@
+
+/*****************************************************************
+    Header
+*****************************************************************/
+
+.header {
+    display: block;
+    height: 12em;
+    background: #353C47 url('../img/public-bck.png') top center no-repeat;
+    background-size: cover;
+    @include hidpi {
+        background: #353C47 url('../img/public-bck@2x.png') top center no-repeat;
+        background-size: cover;
+    }
+   p {
+       float: left;
+        margin: 5em 0 0 10px;
+        color: white;
+    }   
+}
+// Logo
+.logo {
+    margin: 0;
+    a {
+        float: left;
+        width: 150px;
+        height: 40px;
+        margin: 2em 0 0 6%;
+        display: block;
+        background: url('../img/parts-io-logo.png') center center no-repeat;
+        @include hide-text; // Mixin
+        @include transition(all 0.10s ease-in);
+        background-size: 130px;
+
+        @include hidpi {
+            background: url('../img/parts-io-logo@2x.png') center center no-repeat;
+            background-size: 150px;
+        }
+
+        &:hover {
+            //@include transform(scale(1.1));
+        }
+    }
+}

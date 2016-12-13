@@ -1,0 +1,50 @@
+* {
+	font-family: "Century Gothic";
+}
+
+/*.main {
+	background-image: url("Sunset.jpg");
+}*/
+
+/*ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}*/
+
+li {
+	display: inline-block;
+}
+
+.menu {
+	float: right;
+	/*border: 2px red solid;*/
+	padding-right: 1em;
+}
+
+body {
+}
+
+.navbar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	/*border: 2px red solid;*/
+	height: 5em;
+}
+
+button {
+	background-color: black;
+	color: white;
+	font-size: 1.02em;
+	margin: 100px;
+	border: none;
+	height: 200px;
+	width: 200px;
+}
+
+.room {
+	padding-top: 150px;
+	text-align: center;
+	/*border: 2px red solid;*/
+}
