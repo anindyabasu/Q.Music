@@ -1,0 +1,59 @@
+
+body {
+	background-color: white;
+	font-family: "Century Gothic";
+}
+
+
+li {
+	display: inline-block;
+}
+
+.menu {
+	float: right;
+	margin-right: 10px;
+	/*border: 2px red solid;*/
+	/*padding-right: 1em;*/
+}
+
+.logo {
+	margin-left: 10px;	
+}
+
+.navbar{
+	font-size: 20px;
+	list-style-type: none;
+	margin: 0;
+	color: black;
+	padding-left:0;
+	padding-right:0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.about{
+	margin-top: 100px;
+	text-align: center;
+	font-size: 20px;
+}
+
+h2{
+	font-size: 50px;
+}
+button {
+	background-color: #396C72;/*#403152*/
+	color: black;
+	font-size: 20px;
+	margin-top: 0;
+	margin-left: 60px;
+	margin-right: 60px;
+	border: none;
+	height: 100px;
+	width: 180px;
+}
+
+.room {
+	padding-top: 100px;
+	text-align: center;
+}
